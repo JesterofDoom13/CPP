@@ -1,24 +1,24 @@
 //
-//  Worker.h
+//  worker.h
 //  CPP
 //
 //  Created by Nicholas Porter on 07/01/2016.
 //
 //
 
-#ifndef Worker_h
-#define Worker_h
+#ifndef worker_h
+#define worker_h
 
 #include <stdio.h>
 
-class Worker {
+class worker {
 private:
 public:
-    Worker();
-    ~Worker();
+    worker();
+    ~worker();
 protected:
 
 };
 
 
-#endif /* Worker_hpp */
+#endif /* worker_hpp */
