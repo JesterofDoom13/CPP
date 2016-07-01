@@ -1,12 +1,8 @@
-//
-//  main.cpp
-//  CPP
-//
-//  Created by Nicholas Porter on 07/01/2016.
-//
-//
+#include "iostream"
 
-#include "main.h"
+using namespace std;
 
-main::main()  {}
-main::~main() {}
+int main(int argc, char const *argv[]) {
+    std::cout << "Hello" << std::endl;
+    return 0;
+}
