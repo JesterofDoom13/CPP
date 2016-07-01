@@ -11,13 +11,13 @@
 
 #include <stdio.h>
 
-class worker {
+class Worker {
 private:
 public:
-    worker();
-    ~worker();
+    Worker();
+    ~Worker();
 protected:
-
+void Worker::greeting()
 };
 
 

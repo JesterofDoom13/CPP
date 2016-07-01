@@ -8,5 +8,7 @@
 
 #include "worker.h"
 
-worker::worker()  {}
-worker::~worker() {}
+Worker::Worker()  {}
+Worker::~Worker() {}
+
+Worker
