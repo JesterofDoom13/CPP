@@ -6,8 +6,8 @@
 //
 //
 
-#ifndef worker_h
-#define worker_h
+#ifndef worker_hpp
+#define worker_hpp
 
 #include <stdio.h>
 
@@ -17,7 +17,6 @@ public:
     Worker();
     ~Worker();
 protected:
-void Worker::greeting()
 };
 
 
