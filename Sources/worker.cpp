@@ -6,11 +6,18 @@
 //
 //
 
-#include "worker.hpp"
 #include <iostream>
+#include "worker.h"
+
 using namespace std;
 
-Worker::Worker()  {
-    cout << "Worker class member created.\n";
+Worker::Worker()
+{
+    cout << "Worker class member created " << endl;
 }
 Worker::~Worker() {}
+
+void greeting()
+{
+    cout << "Hello this is a worker\n";
+}

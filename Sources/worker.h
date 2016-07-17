@@ -16,6 +16,8 @@ private:
 public:
     Worker();
     ~Worker();
+    void greeting();
+
 protected:
 };
 
