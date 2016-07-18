@@ -15,6 +15,7 @@ Worker::Worker()
 {
     cout << "Worker class member created " << endl;
 }
+
 Worker::~Worker() {}
 
 void Worker::greeting()
