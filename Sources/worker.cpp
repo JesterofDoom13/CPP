@@ -17,7 +17,7 @@ Worker::Worker()
 }
 Worker::~Worker() {}
 
-void greeting()
+void Worker::greeting()
 {
     cout << "Hello this is a worker\n";
 }

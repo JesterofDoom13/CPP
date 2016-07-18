@@ -1,12 +1,22 @@
 #include <iostream>
-#include "worker.cpp"
+#include "worker.h"
 
 using namespace std;
+
+void exiter();
 
 int main(int argc, char const *argv[])
 {
     cout << "Hello, Wolrd!\n";
     Worker john;
-    // john.greeting();
+    john.greeting();
+
+    exiter();
     return 0;
+}
+
+void exiter()
+{
+    cout << "Hit ENTER to close...\n";
+    cin.get();
 }
