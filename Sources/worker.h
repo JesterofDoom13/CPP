@@ -12,6 +12,7 @@
 
 class Worker {
 private:
+    int workerAge;
 public:
     Worker();
     ~Worker();

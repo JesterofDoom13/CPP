@@ -10,7 +10,6 @@ int main(int argc, char const *argv[])
     cout << "Hello, Wolrd!\n";
     Worker john;
     john.greeting();
-
     exiter();
     return 0;
 }
@@ -18,5 +17,6 @@ int main(int argc, char const *argv[])
 void exiter()
 {
     cout << "Hit ENTER to close...\n";
+    cin.get();
     cin.get();
 }
