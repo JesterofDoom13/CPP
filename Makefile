@@ -1,14 +1,13 @@
-CFLAGS = -Wall
-worker: Sources/main.o Sources/worker.o
+run: main.o worker.o
 	clear; \
-g++ Sources/main.o Sources/worker.o -o worker ;\
+g++ main.o worker.o -o worker ;\
 xterm -e "clear; ./worker"
 
-main.o : Sources/main.cpp
-	g++ -c Sources/main.cpp
+main.o : main.cpp
+	g++ -c main.cpp
 
-worker.o : Sources/worker.cpp Sources/worker.h
-	g++ -c Sources/worker.cpp Sources/worker.h
+worker.o : worker.cpp worker.h
+	g++ -c worker.cpp worker.h
 
 clean :
-	rm worker Sources/*.o
+	rm worker *.o *.gch
