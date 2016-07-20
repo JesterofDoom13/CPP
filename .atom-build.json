@@ -1,0 +1,4 @@
+{
+  "cmd": "make",
+  "cwd": "{FILE_ACTIVE_PATH}"
+}

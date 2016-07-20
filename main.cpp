@@ -9,6 +9,7 @@ int main(int argc, char const *argv[]) {
     Worker john;
     john.greeting();
     john.setAge(7);
+    john.greeting();
     exiter();
     return 0;
 }
@@ -16,8 +17,6 @@ int main(int argc, char const *argv[]) {
 void exiter()
 {
     cout << "Hit ENTER to close.\n";
-    char g;
-    cin >> g;
-
-
+    cin.get();
+    cin.get();
 }

@@ -7,8 +7,8 @@ class Worker {
 private:
     int workerAge;
 public:
-    Worker ();
-    ~Worker ();
+    Worker();
+    ~Worker();
     void greeting();
     void setAge(int age);
 };

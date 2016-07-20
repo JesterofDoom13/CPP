@@ -1,3 +1,5 @@
+/.atom-build.json
+
 /Sources/main
 
 *.gch
