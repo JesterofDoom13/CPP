@@ -8,8 +8,6 @@ void exiter();
 int main(int argc, char const *argv[]) {
     Worker john;
     john.greeting();
-    john.setAge(7);
-    john.greeting();
     exiter();
     return 0;
 }
